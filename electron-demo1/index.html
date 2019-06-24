@@ -1,0 +1,37 @@
+
+<html>
+  <head>
+    <title>Hello World</title>
+  </head>
+  <style>
+    body {
+      background-image: linear-gradient(45deg, #ead790 0%, #ef8c53 100%);
+      text-align: center;
+    }
+    button {
+      background: rgba(0, 0, 0, 0.40);
+      box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.5);
+      border-radius: 8px;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      position: relative;
+      top: 40%;
+      cursor: pointer;
+      outline: none;
+    }
+    button:hover {
+      background: rgba(0, 0, 0, 0.3);
+    }
+  </style>
+  <body>
+    <button onclick="sayHello()">Say Hello</button>
+    <script type="text/javascript">
+      function sayHello() {
+        alert('Hello world');
+      }
+    </script>
+  </body>
+</html>
