@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>FileBrowser</title>
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+    <template id="item-template">
+      <div class="item">
+        <img class='icon' />
+        <div class="filename"></div>
+      </div>
+    </template>
+    <div id="toolbar">
+      <div id="current-folder">
+      </div>
+      <input type="search" id="search" results="5" placeholder="Search" />
+    </div>
+    <!-- 该div元素是用来放置要显示的文件列表信息-->
+    <div id="main-area"></div>
+    <script src="./app.js" type="text/javascript"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "name": "electron-filebrowser",
+  "version": "1.0.0",
+  "description": "a filebrowser",
+  "main": "main.js",
+  "scripts": {
+    "pack": "build",
+    "dist": "build"
+  },
+  "author": "tugenhua",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.1.0",
+    "fs": "0.0.1-security",
+    "lunr": "^1.0.0",
+    "osenv": "^0.1.5",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "electron": "^5.0.6",
+    "electron-builder": "^20.44.4"
+  },
+  "build": {
+    "mac": {
+      "icon": "images/icon.icns"
+    },
+    "win": {
+      "icon": "images/icon.ico"
+    }
+  }
+}
