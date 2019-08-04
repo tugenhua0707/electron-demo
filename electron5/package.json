@@ -1,0 +1,14 @@
+{
+  "name": "tray-app-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    
+  },
+  "author": "kongzhi",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^6.0.0"
+  }
+}
