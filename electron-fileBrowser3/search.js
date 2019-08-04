@@ -13,7 +13,6 @@ function resetIndex() {
     this.field('file');
     this.field('type');
     this.ref('path');
-    
   });
 }
 
