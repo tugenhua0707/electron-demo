@@ -9,6 +9,6 @@
   "author": "kongzhi",
   "license": "ISC",
   "dependencies": {
-    "electron": "^6.0.0"
+    "electron": "^13.6.6"
   }
 }
