@@ -10,7 +10,7 @@
   "author": "tugenhua",
   "license": "ISC",
   "dependencies": {
-    "async": "^3.1.0",
+    "async": "^3.2.2",
     "fs": "0.0.1-security",
     "lunr": "^1.0.0",
     "osenv": "^0.1.5",
