@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "async": "^3.1.0",
+    "async": "^3.2.2",
     "fs": "0.0.1-security",
     "osenv": "^0.1.5",
     "path": "^0.12.7"
